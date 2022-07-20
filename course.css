@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-container{
+    background-image: url("/graduation-cap-gold-tassle-and-books.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 70vh;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    height: 400px;
+}
+#about-us{
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bolder;
+    opacity: 0.8;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+#nav-heading-logo{
+    display: flex;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+}
+#university-name{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 28px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+#links{
+    /* border: 1px solid black; */
+    list-style-type: none;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-gap: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    opacity: 0.9;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+.text-container{
+    text-align: center;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 900px 200px;
+    
+}
+#text-heading{
+    padding: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+#text-data{
+    padding: 40px;
+}
+#text-data-button{
+    height: 5vh;
+    width: 10vw;
+    background-color: transparent;
+    border: 1px solid slategrey
+}
+#text-data-button:hover{
+    background-color: rgb(192, 196, 200);
+}
+.courses{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 600px;  
+
+}
+#course-headline{
+    font-size: xx-large;
+    margin-top: 60px;
+}
+#course-text{
+    /* font-weight: ; */
+   padding-top: 50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#course-list-container{
+    margin-top: 90px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 90px;
+    grid-auto-rows: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#course-list{
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(234, 234, 234);
+}
+#facilities-header{
+    text-align: center;
+}
+#facilities-heading{
+    font-size: 40px;
+}
+#facilities-header-text{
+    padding: 0px 80px 0px 80px;
+    margin-top: 40px;
+}
+
+.image{
+    height: 400px;
+    width: 370px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#facilities-list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+    margin-top: 80px;
+}
+.facility-list{
+    font-size: 30px;
+}
+.about-us{
+    text-align: center;
+    background-color:white;
+    height: 400px;
+    margin-top: 150px;
+
+}
+#about-us-heading{
+    font-size: 30px;
+    padding: 40px 0px 20px 0px;
+    color: rgb(35, 34, 34);
+
+
+}
+
+#about-us-para{
+    padding: 0px 70px 10px 70px;
+    margin: auto;
+    font-size: large;
+    opacity: 0.8;
+}
+#about-us-contact{
+    font-size: 40px;
+    padding: 30px 0px 30px 0px;
+}
+#about-us-contact-para{
+    font-size: 30px;
+    opacity: 0.6;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fa:hover{
+    opacity: 0.7;
+}

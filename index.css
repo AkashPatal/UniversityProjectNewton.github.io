@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.nav-container{
+    /* background-color: antiquewhite; */
+    background-image: url("/grad-students-throwing-hats-in-the-air.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    height: 600px;
+    color: rgb(71, 95, 116);
+}
+#university-name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 0;
+}
+header{
+    /* background-color: rgb(249, 245, 245); */
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+#links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 5px 0px 0px 0px;
+    font-weight: bolder;
+    opacity: 0.9;
+}
+li{
+    margin: 10px;
+    padding: 5px;
+}
+
+.text-box{
+    text-align: center;
+    font-size: large;
+    padding: 30px 60px 0px 60px;
+}
+#text-box-heading{
+    font-size: 40px;
+    margin-top: 50px;
+}
+#header-p{
+    color: rgb(12, 16, 11);
+}
+#button{
+    margin-top: 100px;
+    position: relative;
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    background-color: rgb(77, 82, 82);
+    border: none;
+    opacity: 0.5;
+    color: rgb(247, 248, 247);
+}
+#button:hover{
+    font-weight: bold;
+    color: rgb(73, 76, 78);
+    background-color: rgb(211, 226, 226);
+}
+
+#header-p{
+    text-align: center;
+    padding: 20px 80px;
+    font-weight: bold;
+}
+.courses{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 600px;  
+
+}
+#course-headline{
+    font-size: xx-large;
+    margin-top: 60px;
+}
+#course-text{
+    /* font-weight: ; */
+   padding-top: 50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#course-list-container{
+    margin-top: 90px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 90px;
+    grid-auto-rows: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#course-list{
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(234, 234, 234);
+}
+
+#facilities-header{
+    text-align: center;
+}
+#facilities-heading{
+    font-size: 40px;
+}
+#facilities-header-text{
+    padding: 0px 80px 0px 80px;
+    margin-top: 40px;
+}
+
+.image{
+    height: 400px;
+    width: 370px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#facilities-list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+}
+.facility-list{
+    font-size: 30px;
+}
+/* #review-heading{
+    text-align: center;
+    padding-bottom: 50px;
+} */
+#review-heading{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#review-para{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 70px 50px 70px;
+}
+.review-data{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 70px;
+    
+}
+#student-1-review{
+    /* float: left; */
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#student-2-review{
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.student-review-picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 95px;
+}
+.students-review-section{
+    text-align: center;
+    font-size: large;
+}
+.students-review{
+    width: 100vw;
+    height: 40vh;
+    border: 1px solid black;
+}
+
+
+.contact{
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1633734973050-d6499a977c17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+    background-size: 100% 100%;
+}
+
+#contact-text{
+    padding: 60px;
+    font-size: 40px;
+    color: azure;
+    font-weight: bolder;
+    
+}
+#contact-button{
+    margin-top: 40px;
+    position: relative;
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    background-color: rgb(77, 82, 82);
+    border: none;
+    opacity: 0.5;
+    color: rgb(247, 248, 247);
+}
+#contact-button:hover{
+    font-weight: bold;
+    color: rgb(73, 76, 78);
+    background-color: rgb(211, 226, 226);
+}
+.about-us{
+    text-align: center;
+    background-color:white;
+    height: 400px;
+}
+#about-us-heading{
+    font-size: 40px;
+    padding: 40px 0px 20px 0px;
+
+}
+
+#about-us-para{
+    padding: 0px 70px 0px 70px;
+    margin: auto;
+    font-size: large;
+    opacity: 0.8;
+}
+#about-us-contact{
+    font-size: 40px;
+    padding: 30px 0px 30px 0px;
+}
+#about-us-contact-para{
+    font-size: 30px;
+    opacity: 0.6;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fa:hover{
+    opacity: 0.7;
+}
